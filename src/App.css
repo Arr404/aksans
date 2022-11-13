@@ -1,0 +1,39 @@
+:root {
+  --white: #fafafa;
+  --black: #1a1a1a;
+  --white-min: #fafafacc;
+  --red: #8B64ED;
+  --white-blue: #ccf;
+  --blue: #8B64ED;
+  --black-blue: #446;
+  --shadow-light: #fff1;
+  --shadow-dark: #0005;
+  --shadow-semi-dark: #0001;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+li,
+blockquote,
+div,
+tr,
+td,
+button {
+  font-family: -apple-system, BlinkMacSystemFont, "Poppins", "Roboto",
+    "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  font-smooth: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
